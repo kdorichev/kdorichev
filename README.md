@@ -15,30 +15,22 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-I enjoy working on really challenging scientific questions that will make a long-term difference. 
+I enjoy working on ... 
 
-My current focus is ML + Bio (more specifically, protein design), but previously I developed a bunch of ML methods for CERN.
+My current focus is ...
 
-You can find my development/ML projects here on github: first of all, check `einops` (unless you already use it 😏).
-
+You can find my development/ML projects here on github: first of all, check ...
 
 ### Projects I'm interested in
 
-Are you looking for a programming project? I have some ideas for you:
-
+...
 
 <details markdown=1>
-  <summary markdown=1> einops support in ruff (upd: Sonar introduced <a href='https://rules.sonarsource.com/python/tag/convention/RSPEC-6984/'>einops check</a>) </summary>
+  <summary markdown=1> project 1 summary </summary>
   
-  Einops is very readable per se, and mistakes are generally easy to detect, but how about making it even simpler with static analysis? 
-
+  Details
   Some examples where it could be useful
-  
-  ```python
-  rearrange(x, 'b h w c -> b (h w)') # complain on missing c
-  rearrange(x, 'b h w 3 -> b (h w) 3') # anonymous axes like 3 are not available in rearrange
-  rearrange(x, 'b (h w) c -> b h w c') # complain that either h or w should be provided
-  ```
+ 
 </details>
 
 <details markdown=1>
